@@ -1,0 +1,66 @@
+.nice-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 8px 26px;
+    flex-grow: 1;
+    height: 89px;
+
+    &--html {
+        background-color: #E93E30
+    }
+
+    &--js {
+        background-color: #F7E018
+    }
+
+    &--css {
+        background-color: #299ED5
+    }
+
+    &--react {
+        background-color: #292C33
+    }
+
+    &--vue {
+        background-color: #67C770
+    }
+
+    &--bootstrap {
+        background-color: #563D7C
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+        width: 80px;
+        height: 74px;
+    }
+
+    &__text {
+        color: #ffffff;
+        font-weight: 700;
+        font-size: 35px;
+    }
+
+    &__bt-text {
+        color: 171717;
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+.boton {
+    font-size: 30px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    font-weight: 800;
+    height: 50px;
+    max-width: 450px;
+  }
+  
